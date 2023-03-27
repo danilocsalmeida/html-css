@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: gray;
+            color: rgb(0, 0, 0);
+        }
+
+        .num {
+            text-align: right;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Família Almeida</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Altura</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Paula</td>
+                <td class="num">44 anos</td>
+                <td class="num">1,56m</td>
+            </tr>
+            <tr>
+                <td>Rodrigo</td>
+                <td class="num">44 anos</td>
+                <td class="num">1,75m</td>
+            </tr>
+            <tr>
+                <td>Danilo</td>
+                <td class="num">14 anos</td>
+                <td class="num">1,76m</td>
+            </tr>
+            <tr>
+                <td>Anelise</td>
+                <td class="num">11 anos</td>
+                <td class="num">1,43m</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Média das Idades</th>
+                <td class="num">28,25 anos</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
